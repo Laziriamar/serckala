@@ -1,0 +1,99 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.dark1 {
+  @apply bg-slate-700 text-white;
+}
+.dark2 {
+  @apply bg-slate-800 text-white;
+}
+.dark3 {
+  @apply bg-slate-900 text-white;
+}
+.light {
+  @apply bg-white text-slate-700 dark:bg-slate-800 dark:text-white;
+}
+.light2 {
+  @apply bg-slate-200 text-slate-700 dark:bg-slate-700 dark:text-white;
+}
+.light3 {
+  @apply bg-slate-300 text-slate-800;
+}
+.between {
+  @apply flex justify-between items-center;
+}
+.center {
+  @apply flex justify-center items-center;
+}
+.i-center {
+  @apply flex items-center;
+}
+.start {
+  @apply flex justify-start;
+}
+.end {
+  @apply flex justify-end;
+}
+.btn {
+  @apply flex justify-between items-center rounded-xl p-2;
+}
+.btnB2 {
+  @apply bg-blue-400 text-white flex justify-between items-center rounded-xl p-2 m-auto;
+}
+.btnB3 {
+  @apply bg-blue-500 text-white flex justify-between items-center rounded-xl p-2 m-auto;
+}
+.btnTxt {
+  @apply w-8/12 text-center font-bold;
+}
+.svg {
+  @apply w-4 m-auto;
+}
+.bg-0 {
+  @apply bg-cover bg-center relative;
+}
+.bg {
+  @apply bg-cover bg-center relative bg-slate-400 dark:bg-slate-700;
+}
+.bg-wh {
+  @apply bg-cover bg-center relative bg-white dark:bg-slate-800;
+}
+.bg-tr {
+  @apply bg-cover bg-center relative bg-transparent;
+}
+.text-title {
+  @apply text-center font-semibold first-letter:uppercase;
+}
+.text-dis {
+  @apply w-8/12 m-auto text-center font-medium;
+}
+.text-sub {
+  @apply w-7/12 text-center m-auto text-xs font-medium text-slate-500 dark:text-slate-400 lowercase;
+}
+.text-sub-1 {
+  @apply w-7/12 text-center m-auto text-xs text-slate-400 dark:text-slate-500 lowercase;
+}
+.text-sub-2 {
+  @apply w-8/12 m-auto text-center text-slate-400 text-sm lowercase;
+}
+.grid-1 {
+  @apply grid grid-cols-1 gap-4;
+}
+.grid-2 {
+  @apply grid grid-cols-2 gap-4;
+}
+.grid-3 {
+  @apply grid grid-cols-3 gap-4;
+}
+.g-center {
+  @apply grid place-items-center;
+}
+.alert-front {
+  @apply grid grid-cols-1 gap-4 w-10/12 py-4 bg-white text-slate-700 rounded-xl;
+}
+.alert-back {
+  @apply fixed top-0 right-0 w-full h-full p-4 overflow-y-auto flex justify-center items-center bg-slate-800 bg-opacity-70 z-50;
+}
