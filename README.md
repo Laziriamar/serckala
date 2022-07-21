@@ -1,4 +1,4 @@
-# game
+# Serckala
 
 
 
@@ -7,7 +7,7 @@
 https://serckala.web.app
 ```
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
