@@ -1,5 +1,12 @@
 # game
 
+
+
+## Game ( web app ) url
+```
+https://serckala.web.app
+```
+
 ## Project setup
 ```
 npm install
